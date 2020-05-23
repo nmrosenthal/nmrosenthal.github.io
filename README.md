@@ -10,7 +10,9 @@ I'm a PhD student at UCLA. I study climate resilience in cities, with emphasis o
 - Uncovering competitiveness of cycling in cities
 
 ### Some other projects of mine include:
-1. Resilience 
+1. Credit Guarantees for Renewable Energy (Stanford)
+2. Resilience Wildfire Finance (Morgan Stanley)
+
 [Link](url) and ![Image](src)
 ```
 
