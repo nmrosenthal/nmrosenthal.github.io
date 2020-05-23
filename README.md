@@ -1,6 +1,6 @@
 ## Noam Rosenthal
 
-![Image]()
+![Image](IMG_1140.jpg)
 
 I'm a PhD Student at UCLA. I study climate resilience in cities.
 
