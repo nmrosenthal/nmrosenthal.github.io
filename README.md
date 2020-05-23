@@ -1,28 +1,16 @@
-## Noam Rosenthal
+# Noam Rosenthal
 
 ![Image](IMG_1140.jpg)
 
-I'm a PhD Student at UCLA. I study climate resilience in cities.
+I'm a PhD student at UCLA. I study climate resilience in cities, with emphasis on geospatial and financial tools.
 
-### Markdown
+## Projects I'm currently working on:
+- Reducing heat exposure for bus riders in Phoenix
+- Understanding the effects of heat on ridership in Los Angeles
+- Uncovering competitiveness of cycling in cities
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
+### Some other projects of mine include:
+1. Resilience 
 [Link](url) and ![Image](src)
 ```
 
