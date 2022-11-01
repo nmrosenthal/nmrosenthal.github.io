@@ -2,26 +2,18 @@
 
 ![Image](IMG_1140.jpg)
 
-I'm a PhD student at UCLA. I study climate resilience in cities, with emphasis on geospatial and financial tools.
+I'm a PhD student at UCLA. I study exposure and vulnerability to wildfire impacts in California. This includes extreme heat, wildfire smoke PM2.5 and structural safety. I also have experience building financial products for clean energy and do so professsionally at Kettle, a wildfire reinsurer in California. 
 
-## Projects I'm currently working on:
-- Reducing heat exposure for bus riders in Phoenix
-- Understanding the effects of heat on ridership in Los Angeles
-- Uncovering competitiveness of cycling in cities
+## Publications:
+- Reducing heat exposure for bus riders in Phoenix: https://www.tandfonline.com/doi/full/10.1080/23789689.2022.2029324?casa_token=2jLSwtb6dXkAAAAA%3AwvWN_btrdBG0OZfOtT-m4NAn64aSdZYaP4UhOlDliUJaU873zUQeYxa4hg4JRURVpwv3gxqSh7IDvA
+- Analyzing the frequency with which heat and smoke co-occur: https://iopscience.iop.org/article/10.1088/2752-5295/ac860e/meta
+
+## In Action:
+- Google Geo for Good: https://youtu.be/znqzozZ5kvg?t=1561
 
 ### Some other projects of mine include:
 1. Credit Guarantees for Renewable Energy (Stanford)
 2. Resilience Wildfire Finance (Morgan Stanley)
 
-[Link](url) and ![Image](src)
+[Link](url)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nmrosenthal/nmrosenthal.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
