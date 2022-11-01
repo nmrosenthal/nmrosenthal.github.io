@@ -8,8 +8,8 @@ I'm a PhD student at UCLA. I use geospatial statistics and remote sensing datase
 - Reducing heat exposure for bus riders in Phoenix: https://www.tandfonline.com/doi/full/10.1080/23789689.2022.2029324?casa_token=2jLSwtb6dXkAAAAA%3AwvWN_btrdBG0OZfOtT-m4NAn64aSdZYaP4UhOlDliUJaU873zUQeYxa4hg4JRURVpwv3gxqSh7IDvA
 - Analyzing the frequency with which heat and smoke co-occur: https://iopscience.iop.org/article/10.1088/2752-5295/ac860e/meta
 
-## In Action:
-- Google Geo for Good: https://youtu.be/znqzozZ5kvg?t=1561
+## Watch me in action:
+- [Google Geo for Good Conference]([https://link-url-here.org](https://youtu.be/znqzozZ5kvg?t=1561)
 
 ### Some other projects of mine include:
 1. Credit Guarantees for Renewable Energy (Stanford)
