@@ -9,7 +9,7 @@ I'm a PhD student at UCLA. I use geospatial statistics and remote sensing datase
 - Analyzing the frequency with which heat and smoke co-occur: https://iopscience.iop.org/article/10.1088/2752-5295/ac860e/meta
 
 ## Watch me in action:
-- [Google Geo for Good Conference]([https://link-url-here.org](https://youtu.be/znqzozZ5kvg?t=1561)
+- [Google Geo for Good Conference](https://youtu.be/znqzozZ5kvg?t=1561)
 
 ### Some other projects of mine include:
 1. Credit Guarantees for Renewable Energy (Stanford)
