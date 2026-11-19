@@ -106,7 +106,7 @@
 
   /* Stats */
   .stats {
-    display: grid; grid-template-columns: repeat(4, 1fr);
+    display: grid; grid-template-columns: repeat(2, 1fr);
     border: 1px solid var(--line); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow);
     position: relative; z-index: 2; margin-top: -40px;
   }
@@ -203,9 +203,6 @@
     .hero { grid-template-columns: 1fr; gap: 40px; padding: 56px 16px 88px; }
     .portrait { width: 150px; height: 150px; order: -1; margin: 16px 0 0 16px; }
     .portrait::after { inset: -24px; }
-    .stats { grid-template-columns: 1fr 1fr; }
-    .stat:nth-child(3) { border-left: 0; }
-    .stat:nth-child(n+3) { border-top: 1px solid var(--line); }
     .section-head { grid-template-columns: 1fr; gap: 20px; }
     .focus, .edu { grid-template-columns: 1fr; }
   }
@@ -276,7 +273,7 @@
     <div>
       <span class="eyebrow">Climate risk · Insurance · Geospatial AI</span>
       <h1>Noam Rosenthal</h1>
-      <p class="tagline">I turn satellite and climate data into <em>decisions about risk</em>, for the people who insure and rebuild.</p>
+      <p class="tagline">I use satellite and climate data to help people <em>manage risk</em>.</p>
       <div class="cta">
         <a class="btn primary" href="mailto:nmrosenthal@gmail.com">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
@@ -295,38 +292,18 @@
 <main class="wrap">
 
   <div class="stats reveal">
-    <div class="stat"><b>$10M+</b><span>premium on parametric (re)insurance I designed</span></div>
     <div class="stat"><b>10+ yrs</b><span>in geospatial data, from mapping to cat models</span></div>
     <div class="stat"><b>PhD</b><span>UCLA, with M.S. and B.S. from Stanford</span></div>
-    <div class="stat"><b>NYU</b><span>adjunct professor of remote sensing</span></div>
   </div>
 
   <section id="about">
     <div class="section-head">
       <h2>About</h2>
       <div class="reveal">
-        <p class="lead">I work where Earth observation meets the balance sheet: what could happen to a place, what it would cost, and who should carry that risk.</p>
         <p class="body-copy">I built a wildfire catastrophe model and designed parametric triggers for (re)insurance products that grew past $10M in gross written premium. Today I lead go-to-market for a geospatial foundation model platform at LGND AI. My PhD at UCLA studied how wildfire smoke and extreme heat combine to harm health, and I teach remote sensing at New York University.</p>
       </div>
     </div>
 
-    <div class="focus">
-      <div class="card reveal">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1.5 3 5 5.2 5 9.5A5 5 0 0 1 12 18a5 5 0 0 1-5-5.5c0-2 1-3.5 2-4.5.3 1.6 1.2 2.5 2 2.8C11 8.5 11.3 5.5 12 3Z"/><path d="M4 21h16"/></svg></div>
-        <h3>Climate risk</h3>
-        <p>Wildfire, flood, heat and smoke, measured from space and modeled for the people who carry the loss.</p>
-      </div>
-      <div class="card reveal">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.4 8.2 8 9 4.6-.8 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div>
-        <h3>Risk transfer</h3>
-        <p>Catastrophe models, parametric triggers and basis risk for insurers and reinsurers.</p>
-      </div>
-      <div class="card reveal">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></svg></div>
-        <h3>Geospatial AI</h3>
-        <p>Foundation models and cloud-native Earth data, taken from pilot to product.</p>
-      </div>
-    </div>
   </section>
 
   <section id="work">
@@ -368,14 +345,14 @@
         <li class="item reveal">
           <div class="logo"><img src="logos/floodbase.png" alt="Floodbase logo"></div>
           <div>
-            <div class="item-top"><h3>Floodbase <span class="tag">Fellowship</span></h3><span class="when">2020</span></div>
+            <div class="item-top"><h3>Floodbase</h3><span class="when">2020</span></div>
             <p>Built a flood recurrence model to quantify basis risk in parametric flood policies.</p>
           </div>
         </li>
         <li class="item reveal">
           <div class="logo"><img src="logos/hra.png" alt="HR&amp;A Advisors logo"></div>
           <div>
-            <div class="item-top"><h3>HR&amp;A Advisors <span class="tag">Fellowship</span></h3><span class="when">2019</span></div>
+            <div class="item-top"><h3>HR&amp;A Advisors</h3><span class="when">2019</span></div>
             <p>Built a hedonic model of how transit proximity affects home values in Los Angeles.</p>
           </div>
         </li>
@@ -494,10 +471,9 @@
 <path class="" d="M1610.2 507.4 L1605.5 530.2 L1598.7 552.4 L1589.9 573.9 L1579.9 594.8 L1570.0 615.7 L1561.5 637.5 L1554.6 661.3 L1548.4 687.7 L1540.8 716.2 L1529.1 745.0 L1510.9 771.5 L1485.5 792.5 L1453.6 805.6 L1417.5 810.0 L1380.0 806.6 L1343.9 798.1 L1310.4 787.6 L1279.8 778.3 L1250.9 772.0 L1222.2 768.6 L1193.0 766.6 L1163.2 763.7 L1133.9 757.7 L1106.6 747.4 L1082.5 732.9 L1061.8 715.2 L1043.7 696.2 L1026.7 677.3 L1009.2 659.0 L990.2 641.2 L969.9 623.0 L949.7 603.5 L931.4 582.1 L916.6 558.6 L906.2 533.6 L900.2 507.4 L898.2 480.7 L899.5 453.7 L904.1 426.9 L912.7 400.5 L926.5 375.6 L946.6 353.5 L973.0 335.6 L1004.6 322.6 L1038.8 314.6 L1072.7 309.9 L1103.7 306.2 L1130.5 300.6 L1153.6 290.8 L1174.6 276.3 L1196.3 258.0 L1220.6 238.7 L1248.6 221.8 L1279.8 210.3 L1312.7 206.2 L1345.5 209.2 L1376.7 218.0 L1406.0 230.0 L1433.9 243.0 L1461.6 255.5 L1489.7 267.6 L1518.2 280.1 L1545.8 294.6 L1570.6 312.2 L1590.8 333.2 L1605.1 357.2 L1613.4 382.9 L1616.9 409.2 L1617.2 435.1 L1615.8 460.0 L1613.4 484.0 L1610.2 507.4Z"/>
     </svg>
     <h2>Contact</h2>
-    <p class="lead serif">Working on climate risk, insurance or geospatial AI? Let's talk.</p>
+    <p class="lead serif">Working on climate risk, insurance or geospatial AI? Let's connect.</p>
     <div class="cta">
-      <a class="btn" href="mailto:nmrosenthal@gmail.com">nmrosenthal@gmail.com</a>
-      <a class="btn ghost" href="https://www.linkedin.com/in/rosenthalnoam/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://www.linkedin.com/in/rosenthalnoam/" target="_blank" rel="noopener">Connect on LinkedIn</a>
     </div>
   </div>
 
